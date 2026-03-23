@@ -1,11 +1,14 @@
 # [ start hyprland ]
 alias startw="dbus-run-session start-hyprland"
 
+# [ github projects ]
+alias cdgit='cd ~/HDD/projects'
+
 # [ codeberg projects dir ]
-alias cb='cd ~/HDD/codeberg'
+alias cdcb='cd ~/HDD/codeberg'
 
 # [ vm's ]
-alias cdvirt='cd ~/HDD2/virt'
+alias cdvt='cd ~/HDD2/virt'
 
 # [ dmesg ]
 alias dmesg='dmesg --color=always'
