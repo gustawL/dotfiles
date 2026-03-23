@@ -8,7 +8,7 @@ alias cdgit='cd ~/HDD/projects'
 alias cdcb='cd ~/HDD/codeberg'
 
 # [ vm's ]
-alias cdvt='cd ~/HDD2/virt'
+alias cdvirt='cd ~/HDD2/virt'
 
 # [ dmesg ]
 alias dmesg='dmesg --color=always'
