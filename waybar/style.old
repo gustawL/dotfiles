@@ -1,0 +1,213 @@
+* {
+    font-family: RecMonoCasual Nerd Font Propo;
+    font-size: 12px;
+}
+
+#window{
+    border: none;
+    background-color: rgba(5, 8, 12, 0.22); /* rgba(15, 22, 28, 0.45);  add alpha! */
+    color: #FFFFFF;
+
+}
+
+#window.empty{
+    background: transparent;
+    border-color: transparent;
+    
+    color: #555555;
+}
+
+window#waybar {
+    background: rgba(5, 8, 12, 0.22);  /* add alpha! */
+        border-bottom: 2px solid rgba(255,255,255,.16);
+
+}
+
+.modules-left {
+    border: none;
+    background: none;
+}
+
+.modules-center {
+    border: none;
+    background: none;
+}
+
+.modules-right {
+    border: none;
+    background: none;
+}
+
+window#waybar.hidden {  
+}
+
+window#waybar.empty {
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+window#waybar.empty #window {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background: none;
+    background-color: transparent;
+    color: transparent;
+}
+
+window#waybar.termite {
+    background-color: #3F3F3F;
+}
+
+window#waybar.chromium {
+    background-color: #1F1E1E;
+    border: none;
+}
+
+button {
+    background: #2F7E86;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+    background: #5AA9B0;
+    color: #FFFFFF;
+}
+
+
+#workspaces button.active {
+    background-color: #5AA9B0;
+    color: #FFFFFF;
+}
+
+#workspaces button {
+    border: none;
+    background-color: #2F7E86;
+    color: #FFFFFF;
+}
+
+#workspaces button:hover {
+    background: #5AA9B0;
+    border: none;
+}
+
+#workspaces button.urgent {
+}
+
+#workspaces {
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#clock {
+    padding: 0 5px;
+/*    margin-left: 2px; */
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #FFFFFF;
+    }
+}
+
+label:focus {
+    background-color: #ff5555;
+}
+
+#cpu {
+    padding: 0 5px;
+/*    margin-left: 2px; */
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#memory {
+    padding: 0 5px;
+/*    margin-left: 2px; */
+
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#network {
+    padding: 0 5px;
+/*    margin-left: 2px; */    
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+
+}
+
+#network.disconnected {
+    background-color: #ED4A58;
+}
+
+#temperature {
+    padding: 0 5px;
+/*    margin-left: 2px; */
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#temperature.critical {
+    color: #ED4A58;
+}
+
+#mpd {
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#mpd.disconnected {
+    background: transparent;
+    border-color: transparent;
+    
+}
+
+#mpd.stopped {
+    background: transparent;
+    border-color: transparent;
+    color: #555555;
+}
+
+#mpd.paused {
+    border: none;
+    background-color: transparent;
+    color: #555555;
+}
+
+#mpd.playing {
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+tooltip {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+}
+
+#wireplumber {
+    margin-left: 2px;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+}
