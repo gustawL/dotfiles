@@ -1,0 +1,47 @@
+# [ start hyprland ]
+alias startw="dbus-run-session Hyprland"
+
+# [ codeberg projects ]
+alias cb='cd ~/HDD/codeberg'
+
+# [ github projects ]
+alias cdgit='cd ~/HDD/projects'
+
+# [ virtual machines ]
+alias cdvm='cd ~/HDD2/virt'
+
+# [ dmesg ]
+alias dmesg='dmesg --color=always'
+
+# [ diff ]
+alias diff='diff --color=always'
+
+# [ grep ]
+alias grep='grep --color=always'
+
+# [ mv ]
+# require confirmation to override file
+alias mv='mv -i'
+
+# [ rm ]
+# require confirmation to delete file
+alias rm='rm -i'
+
+# [ emacs ]
+alias emacs="emacs --no-x-resources --no-window-system"
+
+# [ fastfetch ]
+#alias fastfetch=~/scripts/main/ffwrap.bash
+
+#alias fastfetch="reset; fastfetch --logo-type sixel --logo ~/HDD/gsh/ChatGPT_version.png --logo-padding 1 --logo-padding-top 2 --logo-width 36 --logo-height 16"
+alias fastfetch="reset; fastfetch"
+
+# [ hexedit ]
+alias hexedit="hexedit --color"
+
+# ruby stuff
+# [ irb ]
+alias irb="irb --colorize --noautocomplete"
+
+# [ ri ]
+alias ri="ri -f ansi"

@@ -1,0 +1,10 @@
+# [ scripts path ]
+if [ -d "$HOME/scripts/main" ]; then
+  export PATH="$HOME/scripts/main:$PATH"
+fi
+
+# [ gems ]
+export PATH=~/bin:$PATH
+
+# [ cargo ]
+export PATH=~/.cargo/bin:$PATH

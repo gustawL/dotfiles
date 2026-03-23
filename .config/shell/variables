@@ -1,0 +1,33 @@
+export MOZ_DRM_DEVICE=/dev/dri/card1
+
+# [ truecolor ]
+export COLORTERM=truecolor
+
+# [ editor ]
+#export EDITOR="emacs -nw --no-x-resources"
+# with -nw, fix for sudoedit in gui mode
+
+export EDITOR="emacs --no-x-resources --no-window-system"
+
+# [ ruby ]
+export RUBY_YJIT_ENABLE=1
+
+# [ sbcl ]
+#env = SBCL_HOME=/usr/lib64/sbcl
+
+# [ VDPAU / VAAPI - amdgpu ]
+#export VDPAU_DRIVER=radeonsi
+#export LIBVA_DRIVER_NAME=radeonsi
+
+# [ wayland ]
+#export DISABLE_LAYER_AMD_SWITCHABLE_GRAPHICS_1=1
+#export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/radeon_icd.x86_64.json
+#export MOZ_X11_EGL=1
+#MOZ_WEBRENDER=1
+export SDL_VIDEODRIVER=wayland
+export GDK_BACKEND=wayland
+export QT_QPA_PLATFORM=wayland
+#export __EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/50_mesa.json
+
+export LANG="en_US.UTF-8"
+export LC_COLLATE="C.UTF-8"
