@@ -1,14 +1,11 @@
 # [ start hyprland ]
-alias startw="dbus-run-session Hyprland"
+alias startw="dbus-run-session start-hyprland"
 
-# [ codeberg projects ]
+# [ codeberg projects dir ]
 alias cb='cd ~/HDD/codeberg'
 
-# [ github projects ]
-alias cdgit='cd ~/HDD/projects'
-
-# [ virtual machines ]
-alias cdvm='cd ~/HDD2/virt'
+# [ vm's ]
+alias cdvirt='cd ~/HDD2/virt'
 
 # [ dmesg ]
 alias dmesg='dmesg --color=always'
@@ -34,7 +31,7 @@ alias emacs="emacs --no-x-resources --no-window-system"
 #alias fastfetch=~/scripts/main/ffwrap.bash
 
 #alias fastfetch="reset; fastfetch --logo-type sixel --logo ~/HDD/gsh/ChatGPT_version.png --logo-padding 1 --logo-padding-top 2 --logo-width 36 --logo-height 16"
-alias fastfetch="reset; fastfetch"
+#alias fastfetch="reset; fastfetch"
 
 # [ hexedit ]
 alias hexedit="hexedit --color"
